@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+
+
+/*-----------------------nav-bar--------------------------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: ;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    text-align: center;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+
+/*----------------------banner section------------------------*/
+#banner
+{
+
+    
+}
+.cover
+{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered
+{
+    min-width: 350px ;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#banner p
+{
+    font-size: 39px;
+}
+#banner .btn
+{
+    font-size: 20px;
+    border: 2px solid white;
+
+}
+#banner .btn:hover
+{
+    background-color: #28a745;
+    color: white; 
+    border-color: #fff;  
+}
+@media (max-width: 768px) 
+{
+    .cover
+    {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .centered
+    {
+        min-width: 350px ;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #banner .btn
+    {
+        font-size: 0.85em;
+        width: fit-content;
+    }
+    #banner p
+    {
+        font-size: 30px;
+        width: auto;
+    }
+}
+
+
+
+/*----------------------About me section------------------------*/
+#AboutMe
+{
+    margin-top: 155px;
+}
+#AboutMe h3
+{
+    color: #28a745;
+}
+#AboutMe h6
+{
+    font-style: Arial;
+    text-align: justify;
+}
+@media (max-width: 768px) 
+{
+    #AboutMe
+    {
+        margin-top: 70px;
+    }
+    #AboutMe h3
+    {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: -15px;
+    }
+    #AboutMe h6
+    {
+        font-size: 18px;
+        font-style:Helvetica;
+        text-align: justify;
+    }
+    #AboutMe #column3{
+        width: auto !important;
+      
+    }
+    #AboutMe #column4{
+        width: auto !important;
+        margin-bottom: -40px;
+      
+    }
+    
+}
+
+
+
+
+/*----------------------Services section------------------------*/
+#Services
+{
+    margin-top: 155px;
+}
+#serviceitems
+{
+    margin-top: 50px;
+}
+#Services h3
+{
+    color: #28a745;
+}
+#Services h5
+{
+    color: #28a745;
+}
+#Services .card 
+{
+    border-color: #28a745;
+}
+#Services li
+{
+    border-color: #28a745;
+}
+@media (max-width: 768px) 
+{
+    #Services
+    {
+        margin-top: 70px;
+    } 
+    #Services h3
+    {
+        margin-bottom: -40px;
+    }  
+    .card-deck .card {
+        margin-bottom: 60px;
+    }
+}
+
+
+
+
+/*----------------------Guarantee section------------------------*/
+#Guarantee
+{
+    margin-top: 155px;
+}
+#Guarantee h3
+{
+    color: #28a745;
+}
+#Guarantee .bi
+{
+    transform: translateY(3.5px); 
+    color: #28a745;
+}
+#Guarantee li
+{
+    border-color: #28a745;
+}
+#Guarantee .card
+{
+    border-color: #28a745;
+}
+@media (max-width: 768px) 
+{
+    #Guarantee
+    {
+        margin-top: 20px;
+    }
+    #Guarantee #column1{
+        width: auto !important;
+        margin-bottom: 6% !important;
+    }
+    #Guarantee #column2{
+        width: auto !important;
+    }
+
+}
+
+
+
+/*----------------------Profile------------------------*/
+#profile
+{
+    margin-top: 155px;
+}
+#profile-img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -30px;
+    width: 15%;
+}
+#profile h3
+{
+    color: #28a745;
+}
+#profile h5
+{
+    font-style: italic;
+}
+@media (max-width: 768px) 
+{
+    #profile h5
+    {
+        font-style: italic;
+        font-size: 1.0em;
+        margin: auto;
+    }  
+    #profile h3
+    {
+        font-size: 1.3em;
+        color: #28a745;
+        margin: auto;
+    } 
+    #profile-img
+    {
+        
+        width: 35%;
+        margin-bottom: -15px;
+    }
+}
+
+
+
+/*----------------------Footer------------------------*/
+#footer
+{
+    margin-top: 155px;
+    background-color: #28a745;
+}
+.container>.row
+{
+    padding-top: 20px;
+}
+#footer h6
+{
+    font-size: 100%;
+}
+#footer img
+{
+    margin: 10px 0 ;
+}
+
+@media (max-width: 768px) 
+{
+    #footer h6
+    {
+       
+        text-align: center !important;
+        margin: 0;
+
+    }
+
+    .container {    
+        flex-direction : column;  
+    }  
+    #copyright {
+        order : 4;   
+    }  
+    #contact {
+        order : 1;
+    } 
+    #socialicons{
+        order: 2;
+        width: 80%;
+        transform: translate(15%,0);
+    }
+    #logo{
+        order: 3;
+    }
+    .row1{
+        margin: auto;
+        padding: auto;
+    }
+
+}
